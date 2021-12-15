@@ -1,0 +1,15 @@
+@import "./variables.scss"
+
+@mixin tamanio ($alto, $ancho) {
+    height: $alto;
+    width: $ancho;
+    
+}
+
+.section1{
+    @include tamanio(500px,500px)
+}
+
+.section2{
+    @include tamanio(1500px,1000px)
+}

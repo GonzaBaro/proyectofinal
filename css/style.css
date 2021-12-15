@@ -1,0 +1,117 @@
+* {
+  margin: 0cm;
+  padding: 0cm;
+  box-sizing: border-box; }
+
+.encabezado {
+  background-image: linear-gradient(to bottom, lightblue, white); }
+
+h1 {
+  text-decoration: none;
+  color: green;
+  font-size: 50px;
+  text-align: center; }
+  h1 h1:hover {
+    transform: scaleX(1.5); }
+
+h3 ul {
+  color: cornsilk; }
+
+.colorconectate {
+  font-size: 25px;
+  color: darkseagreen; }
+  .colorconectate .colorconectate:hover {
+    transform: scaleX(2); }
+.video {
+  align-content: center;
+  margin-top: 5%;
+  margin-left: 15%; }
+.imagen_fondo1{
+  background-image: url(../imagenes/grapes-ge16b874e6_1280.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 20em;}
+.imagen_fondo2{
+  background-image: url(../imagenes/cow-g0218c5907_1920.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 20em;
+  margin-top: 10%;}
+.imagen_fondo3{
+  background-image: url(../imagenes/yerba-mate-g76934b3cb_1920.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 20em;
+  margin-top: 10%}  
+.titulo_v{
+  color: black;
+  text-align: center;
+  padding-top: 1em;} 
+.texto_v{
+  color: black;
+  text-align: center;
+  padding-top: 2em;
+  font-weight: bold;}
+.btn-wsp{
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 30px;
+  right: 30px;}
+.btn-ig{
+  position: fixed;
+  width: 55px;
+  height: 120px;
+  line-height: 55px;
+  bottom: 30px;
+  right: 30px;} 
+.btn-fb{
+  position: fixed;
+  width: 55px;
+  height: 190px;
+  line-height: 55px;
+  bottom: 30px;
+  right: 30px;}
+.imagen-nos{
+  background-image: url(../imagenes/hands-gfec31aabc_1920.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 50em;}
+.texto-nos{
+  font-weight: bold;
+}
+.imagen-sost{
+  background-image: url(../imagenes/nature-gb871f1b1b_1920.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 50em;}
+.loremsostenible{
+  color: rgb(248, 229, 52);
+  font-weight: bold;}
+.card {
+  display: block;
+  margin: auto; }
+.card1{
+  margin-left: 10%;
+}
+.estiloRuta {
+  color: darkorange; }
+  .imgnos {
+    margin-left: 30%;
+    margin-top: 5%;
+    margin-bottom: 1%; }
+  @media only screen and (min-width: 768px) {
+    body {
+      background-color: lightblue; } }
+  @media only screen and (max-width: 767px) and (min-width: 321px) {
+    body {
+      background-color: lightcyan; } }
+  @media only screen and (max-width: 320px) {
+    body {
+      background-color: lightgray; } }

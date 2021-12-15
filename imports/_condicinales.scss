@@ -1,0 +1,11 @@
+@import "./variables"
+
+lorem{
+    @if $color != negro{
+        color: $colorPrimario;
+    } @else if $color == azul{
+        color: $colorSecundario;
+    } @else {
+        color: $colorTerciario
+    }
+} 

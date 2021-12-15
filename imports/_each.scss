@@ -1,0 +1,7 @@
+@import "./variables"
+
+@each $color in pink blue {
+    p.lorem-#{$color}{
+        background-color: #{$color};
+    }
+}

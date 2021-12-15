@@ -1,0 +1,122 @@
+*{ margin: 0cm;
+    padding: 0cm;
+    box-sizing: border-box;
+ }
+
+ .encabezado{
+    background-image: linear-gradient(to bottom,lightblue, white);
+    }
+
+    h1{
+        text-decoration: none;
+        color: green;
+        font-size: 50px;
+        text-align: center;
+    h1:hover{
+        transform: scaleX(1.5);
+            } 
+    }
+
+    h3 ul{
+        color: cornsilk;
+    }
+
+    .colorconectate{
+        font-size: 25px;
+        color: darkseagreen;
+    .colorconectate:hover{
+        transform: scaleX(2);
+    }
+}
+
+ul{
+    align-items: center;
+
+li{
+    display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+    justify-content:space-around;
+    }
+}
+
+.video{
+    margin-top: 5%;
+    margin-left: 32%;
+    margin-bottom: 5%;
+}
+
+.rutas li{ 
+    list-style-position:initial;
+    margin: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+.rutas{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-style: oblique;
+    align-content: center;
+}
+}
+.rutas img{
+   display: block;
+   margin: auto;
+}
+
+
+.card{
+    display: block;
+    margin: auto;
+}
+.estiloRuta{
+    color: darkorange;
+}
+
+
+.fotosostenible{
+    margin-left: 25%;
+    margin-top: 10%;
+    margin-bottom: 1%;
+}
+
+.loremsostenible{
+    text-align-last:auto;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+.lorem{
+    overflow: auto;
+    display: flex;   
+    flex-wrap: wrap;
+    justify-content:center; 
+    margin-top: 5%; 
+}
+
+p{ margin-top: 1%;
+    padding: 5%;
+    text-align: center;
+}
+.imgnos{
+    margin-left: 30%;
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+@media only screen and (min-width: 768px){
+    body{
+    background-color: lightblue;
+}
+}
+@media only screen and (max-width: 767px) and (min-width: 321px) {
+    body{
+    background-color:lightcyan;
+}
+}
+@media only screen and (max-width: 320px){
+    body{
+    background-color:lightgray;
+}
+}
