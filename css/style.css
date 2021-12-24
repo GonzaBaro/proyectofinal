@@ -3,29 +3,31 @@
   padding: 0cm;
   box-sizing: border-box; }
 
-.encabezado {
-  background-image: linear-gradient(to bottom, lightblue, white); }
-
+body{
+  background: rgb(35,27,162);
+  background: linear-gradient(180deg, rgba(35,27,162,1) 0%, rgba(34,58,99,1) 0%, rgba(100,132,235,1) 0%, rgba(0,212,255,1) 28%);
+}
 h1 {
   text-decoration: none;
-  color: green;
+  color: rgb(255, 255, 255);
   font-size: 50px;
   text-align: center; }
-  h1 h1:hover {
-    transform: scaleX(1.5); }
 
-h3 ul {
-  color: cornsilk; }
-
-.colorconectate {
-  font-size: 25px;
-  color: darkseagreen; }
-  .colorconectate .colorconectate:hover {
-    transform: scaleX(2); }
-.video {
-  align-content: center;
-  margin-top: 5%;
-  margin-left: 15%; }
+.btn-ig{
+  position: fixed;
+  line-height: 220px;
+  bottom: 30px;
+  right: 30px;}
+.btn-fb{
+  position: fixed;
+  line-height: 350px;
+  bottom: 30px;
+  right: 30px;}
+.btn-wsp{
+  position: fixed;
+  line-height: 95px;
+  bottom: 30px;
+  right: 30px;}
 .imagen_fondo1{
   background-image: url(../imagenes/grapes-ge16b874e6_1280.jpg);
   background-repeat: no-repeat;
@@ -40,78 +42,67 @@ h3 ul {
   height: 20em;
   margin-top: 10%;}
 .imagen_fondo3{
-  background-image: url(../imagenes/yerba-mate-g76934b3cb_1920.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  height: 20em;
-  margin-top: 10%}  
+    background-image: url(../imagenes/yerba-mate-g76934b3cb_1920.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 20em;
+    margin-top: 10%;}
+    
 .titulo_v{
-  color: black;
   text-align: center;
-  padding-top: 1em;} 
+  color:azure;}
 .texto_v{
-  color: black;
   text-align: center;
-  padding-top: 2em;
+  color: rgb(96, 73, 231);
   font-weight: bold;}
-.btn-wsp{
-  position: fixed;
-  width: 55px;
-  height: 55px;
-  line-height: 55px;
-  bottom: 30px;
-  right: 30px;}
-.btn-ig{
-  position: fixed;
-  width: 55px;
-  height: 120px;
-  line-height: 55px;
-  bottom: 30px;
-  right: 30px;} 
-.btn-fb{
-  position: fixed;
-  width: 55px;
-  height: 190px;
-  line-height: 55px;
-  bottom: 30px;
-  right: 30px;}
-.imagen-nos{
-  background-image: url(../imagenes/hands-gfec31aabc_1920.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  height: 50em;}
-.texto-nos{
-  font-weight: bold;
-}
+
+.video {
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-bottom: 5%; }
+
+.estiloRuta {
+  color: darkorange; }
 .imagen-sost{
   background-image: url(../imagenes/nature-gb871f1b1b_1920.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: cover;}
+
+.loremsostenible {
+  text-align-last: auto;
+  color: rgb(250, 250, 250);
+  font-weight: bold; }
+
+.imagen-nos{
+  background-image: url(../imagenes/hands-gfec31aabc_1920.jpg);
   background-size: cover;
-  height: 50em;}
-.loremsostenible{
-  color: rgb(248, 229, 52);
-  font-weight: bold;}
-.card {
-  display: block;
-  margin: auto; }
-.card1{
-  margin-left: 10%;
-}
-.estiloRuta {
-  color: darkorange; }
-  .imgnos {
-    margin-left: 30%;
-    margin-top: 5%;
-    margin-bottom: 1%; }
-  @media only screen and (min-width: 768px) {
-    body {
-      background-color: lightblue; } }
-  @media only screen and (max-width: 767px) and (min-width: 321px) {
-    body {
-      background-color: lightcyan; } }
-  @media only screen and (max-width: 320px) {
-    body {
-      background-color: lightgray; } }
+  background-attachment: fixed;}
+
+html {
+  font-family: 'Roboto', sans-serif; }
+
+.lorem {
+  overflow: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 5%; }
+
+p {
+  margin-top: 1%;
+  padding: 5%;
+  text-align: center; }
+
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: lightblue; } }
+
+@media only screen and (max-width: 767px) and (min-width: 321px) {
+  body {
+    background-color: lightcyan; } }
+
+@media only screen and (max-width: 320px) {
+  body {
+    background-color: lightgray; } }
