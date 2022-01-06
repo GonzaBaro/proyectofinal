@@ -6,26 +6,26 @@
 body{
   background: rgb(35,27,162);
   background: linear-gradient(180deg, rgba(35,27,162,1) 0%, rgba(34,58,99,1) 0%, rgba(100,132,235,1) 0%, rgba(0,212,255,1) 28%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 h1 {
   text-decoration: none;
   color: rgb(255, 255, 255);
   font-size: 50px;
   text-align: center; }
-
+.footer-esp{
+  align-content:center;
+  margin-left: 100px;
+}
 .btn-ig{
-  position: fixed;
-  line-height: 220px;
-  bottom: 30px;
-  right: 30px;}
+  position:relative;}
 .btn-fb{
-  position: fixed;
-  line-height: 350px;
-  bottom: 30px;
-  right: 30px;}
+  position:relative;
+  right: 330px;}
 .btn-wsp{
   position: fixed;
-  line-height: 95px;
+  line-height: 0px;
   bottom: 30px;
   right: 30px;}
 .imagen_fondo1{
@@ -57,13 +57,23 @@ h1 {
   color: rgb(96, 73, 231);
   font-weight: bold;}
 
-.video {
+.container-video{
+  position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
   margin-top: 5%;
-  margin-left: 15%;
-  margin-bottom: 5%; }
+  margin-left: 7%;
+  }
+.container-video iframe{
+  position:absolute;
+	top:0;
+	left:0;
+	width:93%;
+	height:93%;
+}
 
-.estiloRuta {
-  color: darkorange; }
 .imagen-sost{
   background-image: url(../imagenes/nature-gb871f1b1b_1920.jpg);
   background-repeat: no-repeat;
@@ -95,14 +105,3 @@ p {
   padding: 5%;
   text-align: center; }
 
-@media only screen and (min-width: 768px) {
-  body {
-    background-color: lightblue; } }
-
-@media only screen and (max-width: 767px) and (min-width: 321px) {
-  body {
-    background-color: lightcyan; } }
-
-@media only screen and (max-width: 320px) {
-  body {
-    background-color: lightgray; } }
